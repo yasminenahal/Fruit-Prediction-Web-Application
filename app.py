@@ -49,7 +49,7 @@ def home():
     
     model = load_model("weights.h5")
     la = LabelEncoder()
-    train_labels = np.load("encoded_labels.npy")
+    train_labels = np.load("labels.npy")
     labels = pd.DataFrame(train_labels)
     train_labels_encoded = la.fit_transform(labels[0])
     
