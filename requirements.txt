@@ -1,0 +1,8 @@
+Flask
+numpy==1.19.2
+tensorflow
+gevent
+pillow
+h5py
+gunicorn
+keras
